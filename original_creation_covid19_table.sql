@@ -1,5 +1,5 @@
 CREATE TABLE `bio_dev_original`.`covid19` (
-  `trial_id` INT NULL,
+  `trial_id` VARCHAR(150) NULL,
   `last_refreshed_on` VARCHAR(150) NULL,
   `public_title` VARCHAR(150) NULL,
   `scientific_title` VARCHAR(150) NULL,
