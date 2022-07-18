@@ -1,3 +1,5 @@
+CREATE SCHEMA `bio_dev_original` ;
+
 CREATE TABLE `bio_dev_original`.`covid19` (
   `trial_id` LONGTEXT NULL,
   `last_refreshed_on` LONGTEXT NULL,
